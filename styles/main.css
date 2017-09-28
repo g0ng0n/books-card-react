@@ -3,3 +3,13 @@
 h1,h2,h3,h4,h5,h6,p {
   font-family: "Lato"
 }
+
+.books-container {
+  display: flex;
+  flex-direction: "row";
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100vh;
+}

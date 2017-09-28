@@ -11,7 +11,7 @@ class Books extends React.Component {
         console.log(stateProps);
 
         return (
-            <div>
+            <div className="books-container">
                 <BookCard stateProps = { stateProps }/>
             </div>
         )
